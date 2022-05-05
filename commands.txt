@@ -1,42 +1,44 @@
 **This might not show all commands, because as commands are being added, they have to be tested**
 
-                                                 🛡-**Moderation**-🛡
+                                                                 🛡-**Moderation**-🛡
 m!ban ~ Bans the mentioned user, requirements: Must have ban permission turned on
 m!kick ~ Kicks the mentioned user, requirements: Must have kick permission turned on
 m!lock ~ Locks the channel, meaning normal users can’t send messages in the channel, requirements: Must have Manage Channels permission turned on
 m!unlock ~ Unlocks the channel, requirements: Must have Manage Channels Permission on
 m!setlogchannel ~ Enable’s logs and which channel they go in. requirements: Admin
-m!warn ~ Warns the mentioned user, requirements: Admin
+m!warn ~ Warns the mentioned user, requirements: Admin>
 m!checkwarns  ~ Checks the warns of the mentioned user
 m!clearwarns ~ Removes the warns of the mentioned user, requirements: Admin
 m!timeout <time> <user> ~ Timeout’s the mentioned user
-m!giverole <role> (user) Gives the mentioned user a role. Use role mention or role name or role id, requirements: Admin
+m!giverole <role> (user) Gives the mentioned user a role. Use role mention or role name. or role id, requirements: Admin
 m!purge <amount> ~ Purges the amount of messages in the current channel, requirements: Manage Messages
 m!clearchannel ~ Purges all the messages in the current channel, requirements: Manage Messages
 
-                                                  🎫-**Tickets**-🎫
+                                                                 🎫-**Tickets**-🎫
 m!newticket ~ Creates a ticket - Admin’s can disable this using m!disabletickets
 m!disabletickets ~ Disables tickets, requirements: Admin
 m!enabletickets ~ Enables tickets, requirements: Admin
 
-                                                   ⚙️-**Utility**-⚙️
+                                                                 ⚙️-**Utility**-⚙️
 m!userinfo (user) ~ Info about someone.
 m!serverinfo ~ Shows info about the server you currently are in.
-m!setwelcomechannel ~ Enables welcome message and set’s it in the mentioned channel.
-m!setwelcomemessage ~ Set’s welcome message. Use ! to mention the person that joined, use @ for your member count.
 m!poll <text> Creates a poll with the reaction 1 and 2, requirements: Manange Messages
 m!afk <reason> Makes you “afk” by changing your nickname to this format: AFK | (nickname) - (reason)
 m!unafk ~ Makes you unafk
-
-                                                   ♦️-**Misc**-♦️
+                                                                                                      
+                                                     👋-**Welcome System**-👋
+m!welcomesetup ~ Setup your welcome channel and message, requirements: Admin
+  -
+                                                              ♦️-**Misc**-♦️
 m!ping ~ Shows the bot current ms response time
 m!info ~ Shows info about the bot
 m!botinfo ~ Shows info about the bot
 m!errors ~ Shows known errors happening with the bot currently
 m!help ~ Shows a list of commands
 m!8ball ~ just a command that displays random text and might not make sense
+m!suggest ~ Suggestion something!
 
-                                                  💵-**Ecomony**-💵
+                                                             💵-**Ecomony**-💵
 m!bal ~ Check your current balance of money
 m!work ~ Gain money by working, 1h cooldown
 m!bet <amount> You have a 1 in 5 chance (20% chance) to get double the amount you betted
@@ -48,6 +50,8 @@ m!buy ~ Buy shop items
 m!inventory ~ See what you have
 m!leaderboard ~ Compare your balance to the best
 m!crime ~ Commit a crime
+m!dep ~ Deposit money to your bank
+m!withdraw ~ Withdraw money from your bank
 
                   🔈-Notice about slash commands- 🔈
 **Keep in mind this bot supports slash commands but not all commands are supported.
